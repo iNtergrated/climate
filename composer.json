@@ -1,0 +1,26 @@
+{
+    "name": "intergrated/climate",
+    "description": "Control the environment using a dotfile (e.g. .production, .development, etc.).",
+    "require": {
+        "php": ">=5.3.3",
+        "symfony/console": "dev-master",
+        "symfony/event-dispatcher": "dev-master",
+        "symfony/config": "dev-master"
+    },
+    "require-dev": {
+        "filp/whoops": "dev-master"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jason P. Scharf",
+            "email": "jason.scharf@intergrated.net"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-0": {
+            "Climate": "src/"
+        }
+    }
+}
